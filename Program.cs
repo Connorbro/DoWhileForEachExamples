@@ -15,9 +15,14 @@ namespace CleanCodingInC
 
             while(guess != secretWord)
             {
-                Console.Write("Enter guess: ");
-                guess = Console.ReadLine();
-                guessCount++;
+                if (guessCount <= guessLimit)
+                {
+                    Console.Write("Enter guess: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+
+                }
+                
             }
             Console.Write($"You guessed the word {secretWord}, You win!");
 
