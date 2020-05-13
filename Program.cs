@@ -30,7 +30,7 @@ namespace CleanCodingInC
             }
             if(outOfGuesses)
             {
-                Console.Write("You lose!");
+                Console.Write($"You lose! The answer was {secretWord}");
             }
             else
             {
