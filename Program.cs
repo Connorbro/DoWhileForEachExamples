@@ -12,6 +12,7 @@ namespace CleanCodingInC
             while(guess != secretWord)
             {
                 Console.Write("Enter guess: ");
+                guess = Console.ReadLine();
             }
 
            
