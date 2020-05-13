@@ -9,6 +9,11 @@ namespace CleanCodingInC
             string secretWord = "Tiger";
             string guess = "";
 
+            while(guess != secretWord)
+            {
+                Console.Write("Enter guess: ");
+            }
+
            
         }
     }
