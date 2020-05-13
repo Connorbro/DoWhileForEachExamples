@@ -6,6 +6,9 @@ namespace CleanCodingInC
     {
         static void Main(string[] args)
         {
+            string secretWord = "Tiger";
+            string guess = "";
+
            
         }
     }
