@@ -8,11 +8,14 @@ namespace CleanCodingInC
         {
             string secretWord = "Tiger";
             string guess = "";
+            int guessCount = 0;
+
 
             while(guess != secretWord)
             {
                 Console.Write("Enter guess: ");
                 guess = Console.ReadLine();
+                guessCount++;
             }
             Console.Write($"You guessed the word {secretWord}, You win!");
 
