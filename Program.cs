@@ -10,6 +10,7 @@ namespace CleanCodingInC
             string guess = "";
             int guessCount = 0;
             int guessLimit = 3;
+            bool outOfGuesses = false;
 
 
             while(guess != secretWord)
