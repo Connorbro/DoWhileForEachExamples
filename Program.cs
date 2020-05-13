@@ -14,7 +14,7 @@ namespace CleanCodingInC
                 Console.Write("Enter guess: ");
                 guess = Console.ReadLine();
             }
-            Console.Write($"You guessed the word {secretWord}");
+            Console.Write($"You guessed the word {secretWord}, You win!");
 
            
         }
