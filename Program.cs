@@ -6,7 +6,7 @@ namespace CleanCodingInC
     {
         static void Main(string[] args)
         {
-            string secretWord = "Tiger";
+            string secretWord = "tiger";
             string guess = "";
             int guessCount = 0;
             int guessLimit = 3;
