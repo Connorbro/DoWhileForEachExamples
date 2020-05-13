@@ -13,7 +13,7 @@ namespace CleanCodingInC
             bool outOfGuesses = false;
 
 
-            while(guess != secretWord)
+            while(guess != secretWord && !outOfGuesses )
             {
                 if (guessCount <= guessLimit)
                 {
