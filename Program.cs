@@ -33,10 +33,13 @@ namespace CleanCodingInC
                 Console.Write("You lose!");
             }
             else
+            {
+                Console.Write($"You guessed the word {secretWord}, You win!");
 
-            Console.Write($"You guessed the word {secretWord}, You win!");
+            }
 
-           
+
+
         }
     }
 }
