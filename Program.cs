@@ -22,6 +22,10 @@ namespace CleanCodingInC
                     guessCount++;
 
                 }
+                else
+                {
+                    outOfGuesses = true;
+                }
                 
             }
             Console.Write($"You guessed the word {secretWord}, You win!");
