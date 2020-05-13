@@ -28,6 +28,12 @@ namespace CleanCodingInC
                 }
                 
             }
+            if(outOfGuesses)
+            {
+                Console.Write("You lose!");
+            }
+            else
+
             Console.Write($"You guessed the word {secretWord}, You win!");
 
            
