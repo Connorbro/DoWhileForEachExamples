@@ -6,7 +6,13 @@ namespace CleanCodingInC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int index = 6;
+            do
+            {
+                Console.WriteLine(index);
+                index++;
+
+            } while (index <= 5);
         }
     }
 }
